@@ -8,9 +8,13 @@
     "name": "Long Tran",
     "email": "tranbaolong14@gmail.com"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.0.11"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint": "bash ./scripts/lint.sh"
+  }
 }
