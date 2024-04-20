@@ -16,5 +16,9 @@
   "scripts": {
     "prepare": "husky",
     "lint": "bash ./scripts/lint.sh"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "form-data": "^4.0.0"
   }
 }
