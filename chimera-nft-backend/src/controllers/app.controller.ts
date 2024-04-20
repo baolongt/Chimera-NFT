@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { AppService } from '../services/app.service';
 import { GenerateImageService } from 'src/services';
-import { ApiBody, ApiProperty } from '@nestjs/swagger';
+import { ApiBody } from '@nestjs/swagger';
 import { GenerateImageDTO } from 'src/dtos';
 
 @Controller()
